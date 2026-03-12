@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  /* DSSA Color Palette */
+  --color-dssa-blue: #0A1F44;
+  --color-dssa-gold: #C8A951;
+  --color-dssa-light: #F8F9FA;
+  --color-dssa-grey: #E5E7EB;
+  
+  /* Clean, modern typography */
+  --font-sans: 'Inter', system-ui, sans-serif;
+  
+  /* Subtle card shadow for the UI */
+  --shadow-card: 0 4px 6px -1px rgba(10, 31, 68, 0.1), 0 2px 4px -1px rgba(10, 31, 68, 0.06);
+}
+
+/* Optional: Add a basic reset for your background */
+body {
+  background-color: var(--color-dssa-light);
+  color: var(--color-dssa-blue);
+}
